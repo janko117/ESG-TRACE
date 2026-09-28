@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets (contains the Gemini API key)
+.env
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Generated databases and batch files
+data/databases/
+*.db
+
+# Sustainability reports are not part of the repository.
+# Only the empty folder is kept (via .gitkeep).
+data/reports/*
+!data/reports/.gitkeep
+*.pdf
